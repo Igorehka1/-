@@ -1,0 +1,429 @@
+
+body{
+padding-left: 40px;
+padding-top: 40px;
+padding-right: 40px;
+padding-bottom: 40px;
+background: #E5E5E5;
+font-family: 'Montserrat', sans-serif;
+}
+.wrapper{
+display: flex;
+    flex-direction: row-reverse;
+    background: #FFFFFF;
+    width: 1200px;
+    margin: auto;
+}
+.main-content{
+padding-left: 88px;
+padding-top: 80px;
+padding-bottom: 80px;
+padding-right: 40px;
+}
+.my-photo{
+     margin-bottom: 40px;
+}
+.about-me{
+    margin-bottom: 40px;
+}
+.nickname{
+    width: 383.88px;
+
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+    
+        color: #000000;
+}
+.my-name{
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 55px;    
+}
+.my-summary{
+    font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        /* or 171% */
+    
+    
+        color: #595959;
+}
+.projects{
+    
+        width: 529px;
+        height: 111.97px;
+        left: 498px;
+        top: 336.03px;
+}
+.my-projects{
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 27px;
+
+color: #000000;
+}
+.work-expirience{
+width: 526px;
+}
+.works-expirience{
+    font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 27px;
+        /* identical to box height */
+    
+    
+        color: #000000;
+}
+.company1{
+    width: 526px;
+        height: 130px;
+        left: 498px;
+        top: 527.03px;
+}
+.company1-name{
+    font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        /* identical to box height */
+    
+    
+        color: #000000;
+}
+.company1-date{
+        width: 225.72px;
+    
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+    
+        color: #A8A8A8;
+}
+.company1-description{
+width: 526px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+
+    color: #595959;
+}
+.company2 {
+    width: 526px;
+    height: 170px;
+    left: 498px;
+    top: 527.03px;
+}
+.company2-name {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+.company2-date {
+width: 225.72px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #A8A8A8;
+}
+.company2-description {
+width: 526px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+
+    color: #595959;
+}
+.company3 {
+    width: 526px;
+    height: 170px;
+    left: 498px;
+    top: 527.03px;
+}
+.company3-name {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+.company3-date {
+width: 225.72px;
+        
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+        
+color: #A8A8A8;
+}
+.company3-description {
+width: 526px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+
+    color: #595959;
+}
+.company4 {
+    width: 526px;
+    height: 170px;
+    left: 498px;
+    top: 527.03px;
+}
+.company4-name {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+.company4-date {
+width: 225.72px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #A8A8A8;
+}
+.company4-description {
+width: 526px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+
+    color: #595959;
+}
+.education{
+width: 526px;
+    height: 177px;
+    left: 498px;
+    top: 1033.03px;
+}
+.education-front{
+width: 118px;
+    height: 27px;
+    left: 498px;
+    top: 1033.03px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+.education1-name{
+    width: 526px;
+    height: 20px;
+    left: 498px;
+    top: 1068.03px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+
+    color: #6096FF;
+}
+.profession1{
+
+        width: 99px;
+        height: 17px;
+        left: 498px;
+        top: 1096.03px;
+
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+        /* identical to box height */
+    
+    
+        color: #000000;
+}
+.profession1-date{
+width: 241px;
+    height: 15px;
+    left: 498px;
+    top: 1121.03px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+
+    color: #A8A8A8;
+}
+.school {
+    height: 20px;
+        left: 498px;
+        top: 1068.03px;
+    
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        /* identical to box height */
+    
+    
+        color: #6096FF;
+}
+.sсhool-date{
+width: 241px;
+    height: 15px;
+    left: 498px;
+    top: 1121.03px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+
+    color: #A8A8A8;
+}
+aside{
+width: 300px;
+    height: 1319px;
+    left: 40px;
+    top: 40px;
+
+    background: #DFEEFF;
+    border-radius: 0px;
+}
+.contacts{
+width: 250px;
+    height: 90px;
+    left: 80px;
+    top: 490px;
+}
+.c-e{
+font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+
+
+    color: #161D2A;
+}
+.contacts-header{
+    width: 250px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    /* identical to box height */
+
+
+    color: #161D2A;
+}
+.number-email{
+
+        height: 48px;
+        left: 111px;
+        top: 523px;
+
+font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+
+    text-decoration-line: underline;
+
+    color: #2979FF;
+}
+.tech-skills{
+width: 250px;
+    height: 130px;
+    left: 80px;
+    top: 613px;
+}
+.tech-skills-top{
+    font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 27px;
+    
+        color: #161D2A;
+}
+.skills-tech{
+    font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        /* or 171% */
+    
+    
+        color: #161D2A;
+}
+.soft-skills{
+    width: 250px;
+        height: 174.01px;
+        left: 80px;
+        top: 881px;
+}
+.soft-skills-top{
+    font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 27px;
+        /* identical to box height */
+    
+    
+        color: #161D2A;
+}
+.skills-soft{
+    font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        /* or 171% */
+    
+    
+        color: #161D2A;
+}
