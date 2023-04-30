@@ -8,14 +8,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
       rel="stylesheet"
     />
 
     <link rel="stylesheet" href="style/reset.css" />
-    <link rel="stylesheet" href="style/styles.css" />
+    <link rel="stylesheet" href="style/style.css" />
 
-    <title>TIX</title>
+    <title>Mister TIX</title>
   </head>
   <body>
     <div class="wrapper">
@@ -25,142 +25,164 @@
         <div class="about-me">
           <h2 class="nickname">TIX.Гуру.</h2>
           <h1 class="my-name">Ігор Іванов</h1>
-
           <p class="my-summary">
             зазвичай я мало що пишу про себе тому незнаю що сюди вставити
           </p>
         </div>
-
         <!-- Projects -->
-        <div class="projects">
-          <h3 class="my-projects">Projects</h3>
+        <div class="projects-container">
+          <h3 class="main-content-title">Projects</h3>
 
-          <ol>
-            <li>
-              <a href="https://hellen.p.goit.global/"
+          <ol class="projects-list">
+            <li class="projects-item">
+              <a class="projects-link" href="https://hellen.p.goit.global/"
                 >https://hellen.p.goit.global/</a
               >
-              ...................... [ HTML5, CSS3 ]
+              <span class="projects-tech">
+                .......................... [ HTML5, CSS3 ]</span
+              >
             </li>
-            <li>
-              <a href="https://cryptohub.p.goit.global/"
+            <li class="projects-item">
+              <a class="projects-link" href="https://cryptohub.p.goit.global/"
                 >https://cryptohub.p.goit.global/</a
               >
-              ................ [ JavaScript ]
+              <span class="projects-tech">
+                ................ [ JavaScript ]</span
+              >
             </li>
-            <li>
-              <a href="https://kidslike.p.goit.global/"
+            <li class="projects-item">
+              <a class="projects-link" href="https://kidslike.p.goit.global/"
                 >https://kidslike.p.goit.global/</a
               >
-              ................... [ React.js, Node.js ]
+              <span class="projects-tech">
+                ....................... [ React.js, Node.js ]</span
+              >
             </li>
           </ol>
         </div>
-
         <!-- Work experience -->
-        <div class="work-expirience">
-          <h3 class="works-expirience">Work Experience</h3>
+        <div class="work-expirience-container">
+          <h3 class="main-content-title">Work Experience</h3>
 
           <!-- Company 1 -->
-          <div class="company1">
-            <h4 class="company1-name">Офіціант</h4>
-            <p class="company1-date">2019 | Кипарис</p>
+          <div class="company-container">
+            <h4 class="company-position">
+              Офіціант
+              <span class="company-position-accent"> Кипарис</span>
+            </h4>
+            <p class="company-date">2019</p>
 
-            <ul class="company1-description">
-              <li>Обслуговування клієнтів</li>
-              <li>Догляд робочого місця</li>
-              <li>Підготовка приміщення</li>
+            <ul class="company-duties-list">
+              <li class="company-duties-item">Обслуговування клієнтів</li>
+              <li class="company-duties-item">Догляд робочого місця</li>
+              <li class="company-duties-item">Підготовка приміщення</li>
             </ul>
           </div>
           <!-- Company 2 -->
-          <div class="company2">
-            <h4 class="company2-name">Управляючий</h4>
-            <p class="company2-date">2020 - 2022 | Гумонітарна допомога</p>
+          <div class="company-container">
+            <h4 class="company-position">
+              Управляючий
+              <span class="company-position-accent">Гумонітарна допомога</span>
+            </h4>
+            <p class="company-date">2020 - 2022</p>
 
-            <ul class="company2-description">
-              <li>Прийом вантажу</li>
-              <li>Розвантаженя</li>
-              <li>Оформлення</li>
-              <li>Роздача</li>
-              <li>Реєстр</li>
+            <ul class="company-duties-list">
+              <li class="company-duties-item">Прийом вантажу</li>
+              <li class="company-duties-item">Розвантаженя</li>
+              <li class="company-duties-item">Оформлення</li>
+              <li class="company-duties-item">Роздача</li>
+              <li class="company-duties-item">Реєстр</li>
             </ul>
           </div>
           <!-- Company 3 -->
-          <div class="company3">
-            <h4 class="company3-name">Технолог</h4>
-            <p class="company3-date">2023 | Мясокомбінат</p>
+          <div class="company-container">
+            <h4 class="company-position">
+              Технолог
+              <span class="company-position-accent">Мясокомбінат</span>
+            </h4>
+            <p class="company-date">2023</p>
 
-            <ul class="company3-description">
-              <li>Підготовка продукції</li>
-              <li>Перелік</li>
-              <li>Виготовлення продукції</li>
-              <li>Розвантаження сировини</li>
-              <li>Завантаження продукції</li>
+            <ul class="company-duties-list">
+              <li class="company-duties-item">Підготовка продукції</li>
+              <li class="company-duties-item">Перелік</li>
+              <li class="company-duties-item">Виготовлення продукції</li>
+              <li class="company-duties-item">Розвантаження сировини</li>
+              <li class="company-duties-item">Завантаження продукції</li>
             </ul>
           </div>
           <!-- Company 4 -->
-          <div class="company4">
-            <h4 class="company4-name">Інженер</h4>
-            <p class="company4-date">2023 | Ніка Пласт</p>
+          <div class="company-container">
+            <h4 class="company-position">
+              Інженер <span class="company-position-accent">Ніка Пласт</span>
+            </h4>
+            <p class="company-date">2023</p>
 
-            <ul class="company4-description">
-              <li>Підготовка продукції</li>
-              <li>Перелік</li>
-              <li>Виготовлення продукції</li>
-              <li>Розвантаження сировини</li>
-              <li>Завантаження продукції</li>
+            <ul class="company-duties-list">
+              <li class="company-duties-item">Підготовка продукції</li>
+              <li class="company-duties-item">Перелік</li>
+              <li class="company-duties-item">Виготовлення продукції</li>
+              <li class="company-duties-item">Розвантаження сировини</li>
+              <li class="company-duties-item">Завантаження продукції</li>
             </ul>
           </div>
-          <!-- Education -->
-          <div class="education">
-            <h4 class="education-front">Education</h4>
-            <h5 class="education1-name">Петрівськи Аграрний Фаховий Коледж</h5>
-            <p class="profession1">Агроінженер</p>
-            <p class="profession1-date">September 2019 - for presen day</p>
-            <h5 class="school">Загально Освітня Школа I-III Cтупенів</h5>
-            <p class="sсhool-date">September 2010 - June 2019</p>
-          </div>
+        </div>
+        <!-- Education -->
+        <div class="main-content-title">
+          <h4 class="education-front">Education</h4>
+          <h5 class="education-name">Петрівськи Аграрний Фаховий Коледж</h5>
+          <p class="profession">Агроінженер</p>
+          <p class="profession-date">September 2019 - for presen day</p>
+          <h5 class="education-name">Загально Освітня Школа I-III Cтупенів</h5>
+          <p class="profession-date">September 2010 - June 2019</p>
         </div>
       </div>
       <!-- Sidebar -->
       <aside class="aside">
         <img
           class="my-photo"
-          src="./img/photo_2023-04-26_12-20-49.jpg"
+          src="img/86264878_p0.png"
           alt="My photo"
           width="300"
         />
-        <!-- Contacts -->
-        <div class="contacts">
-          <h3 class="contacts-header">Contacts</h3>
+        <div class="sidebar-contents">
+          <!-- Contacts -->
+          <div class="contacts-container">
+            <h3 class="sidebar-title">Contacts</h3>
 
-          <ul>
-            <li class="c-e">
-              C: <a href="tel:+38 068 551 55 01">+38 068 551 55 01</a>
-            </li>
-            <li class="c-e">
-              E: <a href="mailto:igor0901iv@gmail.com">igor0901iv@gmail.com</a>
-            </li>
-          </ul>
-        </div>
-        <!-- Tech Skills -->
-        <div class="tech-skills">
-          <h3 class="tech-skills-top">Tech Skills</h3>
-          <ul class="skills-tech">
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>Python</li>
-          </ul>
-        </div>
-        <!-- Soft Skills -->
-        <div class="soft-skills">
-          <h3 class="soft-skills-top">Soft Skills</h3>
-          <ul class="skills-soft">
-            <li>Уважність</li>
-            <li>Teamwork</li>
-            <li>Організованість</li>
-            <li>Сон</li>
-          </ul>
+            <ul>
+              <li class="contacts-item">
+                C:
+                <a class="contacts-link" href="tel:+38 068 551 55 01"
+                  >+38 068 551 55 01</a
+                >
+              </li>
+              <li class="contacts-item">
+                E:
+                <a class="contacts-link" href="mailto:igor0901iv@gmail.com"
+                  >igor0901iv@gmail.com</a
+                >
+              </li>
+            </ul>
+          </div>
+          <!-- Tech Skills -->
+          <div class="skills-container">
+            <h3 class="sidebar-title">Tech Skills</h3>
+            <ul class="skills-list">
+              <li class="skills-item">HTML</li>
+              <li class="skills-item">CSS</li>
+              <li class="skills-item">Python</li>
+            </ul>
+          </div>
+          <!-- Soft Skills -->
+          <div class="skills-container">
+            <h3 class="sidebar-title">Soft Skills</h3>
+            <ul class="skills-list">
+              <li class="skills-item">Уважність</li>
+              <li class="skills-item">Teamwork</li>
+              <li class="skills-item">Організованість</li>
+              <li class="skills-item">Сон</li>
+            </ul>
+          </div>
         </div>
       </aside>
     </div>
