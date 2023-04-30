@@ -1,0 +1,230 @@
+
+body{
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    background: #E5E5E5;
+    font-family: 'Montserrat', sans-serif;
+}
+.wrapper{
+    display: flex;
+        flex-direction: row-reverse;
+        background: #FFFFFF;
+        width: 1200px;
+        margin: auto;
+}
+.main-content{
+    width: 100%;
+padding-left: 88px;
+padding-top: 80px;
+padding-bottom: 80px;
+padding-right: 40px;
+}
+.main-content-title{
+    font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 27px;
+    
+        color: #000000;
+        margin-bottom: 8px;
+}
+.about-me{
+    margin-bottom: 40px;
+}
+.nickname{
+font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #000000;
+        margin-bottom: 8px;
+}
+.my-name{
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 55px;   
+margin-bottom: 8px; 
+}
+.my-summary{
+    font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        /* or 171% */
+    
+    
+        color: #595959;
+}
+.projects-container{
+    margin-bottom: 44px;
+}
+.projects-item{
+    font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 24px;
+        color: #000000;
+        list-style: decimal;
+        margin-bottom: 4px;
+}
+.projects-list{
+    padding-left: 16px;
+}
+.projects-link{
+    font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        text-decoration-line: underline;
+        color: #2979FF;
+}
+.projects-tech{
+    font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #000000;
+}
+.work-expirience-container{
+margin-bottom: 40px;
+}
+.company-container{
+margin-bottom: 8px;
+}
+.company-position{
+    font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        color: #000000;
+        margin-bottom: 12px;
+}
+.company-position-accent{
+   color:#6096FF ; 
+   margin-left: 4px;
+}
+.company-date{
+        width: 225.72px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+        color: #A8A8A8;
+margin-bottom: 4px;
+}
+.company-duties-list{
+margin-left: 36px;
+margin-bottom: 8px;
+}
+.company-duties-item{
+    font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #595959;
+        list-style: disc;
+}
+.education{
+width: 526px;
+    height: 177px;
+    left: 498px;
+    top: 1033.03px;
+}
+.education-front{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+    margin-bottom: 8px;
+}
+.education-name{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #6096FF;
+    margin-bottom: 8px;
+}
+.profession{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+        color: #000000;
+        margin-bottom: 8px;
+}
+.profession-date{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+    margin-bottom: 8px;
+}
+aside{
+    width: 300px;
+    left: 40px;
+    top: 40px;
+        padding-top: 40px;
+        padding-bottom: 80px;
+
+    background: #DFEEFF;
+    border-radius: 0px;
+}
+.sidebar-contents{
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 80px;
+}
+.sidebar-title{
+font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 8px;
+
+    color: #161D2A;
+}
+.contacts-item{
+font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+
+
+    color: #161D2A;
+}
+.contacts-container{
+margin-bottom: 40px;
+}
+.contacts-link{
+font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+
+    text-decoration-line: underline;
+
+    color: #2979FF;
+}
+.skills-container{
+margin-bottom: 40px;
+}
+.skills-list{
+    padding-left: 32px;
+}
+.skills-item{
+font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+
+    color: #161D2A;
+    list-style: disc;
+}
